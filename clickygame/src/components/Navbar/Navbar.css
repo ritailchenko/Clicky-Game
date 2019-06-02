@@ -1,0 +1,30 @@
+.navbar li {
+    display: inline-block;
+    text-align: center;
+}
+
+.itemLeft {
+   width: 15%;
+}
+
+.itemCenter {
+    width: 75%;
+}
+
+.itemRight {
+    width: 15%;
+}
+
+.navbar {
+    background: #CF5C36;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.li {
+    color: white;
+    padding: 15px 0;
+}
+
+body {
+    font-size: 24px;
+}

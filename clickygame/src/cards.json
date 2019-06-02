@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "image": "brian.jpeg"
+    },
+    {
+        "id": 2,
+        "image": "lois.jpeg"
+    },
+    {
+        "id": 3,
+        "image": "peter.jpeg"
+    },
+    {
+        "id": 4,
+        "image": "stewie.jpeg"
+    },
+    {
+        "id": 5,
+        "image": "meg.jpeg"
+    },
+    {
+        "id": 6,
+        "image": "glenn.jpeg"
+    },
+    {
+        "id": 7,
+        "image": "chris.jpeg"
+    },
+    {
+        "id": 8,
+        "image": "joe.jpeg"
+    },
+    {
+        "id": 9,
+        "image": "cleveland.jpeg"
+    },
+    {
+        "id": 10,
+        "image": "tom.jpeg"
+    },
+    {
+        "id": 11,
+        "image": "tricia.jpeg"
+    },
+    {
+        "id": 12,
+        "image": "carter.jpeg"
+    }
+]
