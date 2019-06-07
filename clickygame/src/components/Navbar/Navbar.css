@@ -8,6 +8,7 @@
     width: 100%;
     text-transform: uppercase;
     font-family: 'Bowlby One SC', cursive;
+    letter-spacing: .5px;
 }
 
 .itemLeft {
@@ -32,5 +33,4 @@
 body {
     font-size: 24px;
     background-color: #FFFF26;
-    letter-spacing: .5px;
 }
