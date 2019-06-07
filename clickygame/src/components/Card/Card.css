@@ -1,7 +1,24 @@
 .card {
-    width: 200px;
-    height: 150px;
+    border-radius: 2px;
+    margin: 1rem;
+    transition: all .2s ease-in-out;
     margin: 15px 45px;
-    box-shadow: 10px 10px 8px #888888;
-    border: 3px solid white;
+    box-shadow: 4px 4px 10px rgb(56, 56, 56);
+    border: 3px rgb(99, 99, 99) solid;
+}
+
+.card:hover {
+    box-shadow: 8px 8px 20px rgb(56, 56, 56);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+.card:active {
+    transform: translate(1px, 1px);
 }

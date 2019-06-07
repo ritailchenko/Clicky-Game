@@ -1,11 +1,13 @@
 .footer {
-    background-color: #588B8B;
+    background: #1C2326;
     width: 100%;
     position: relative;
 }
 
 .footer p {
-    color: white;
-    padding: 10px 0;
+    color:#FFFF26;
+    padding: 12px 0;
     font-size: 15px; 
+    letter-spacing: .5px;
+    margin-bottom: 0;
 }

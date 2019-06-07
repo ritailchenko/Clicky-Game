@@ -10,7 +10,8 @@ class App extends Component {
   state = {
     cards,
     clickedCard: [], 
-    score: 0
+    score: 0,
+    topscore: 0
   };
 
   //when you click on a card its taken out of the array
@@ -39,7 +40,8 @@ class App extends Component {
           clickedCard: this.state.clickedCard.concat(
             currentCard
           ),
-          score: this.state.score + 1
+          score: this.state.score + 1,
+          topscore: this.state.score + 1 > this.state.topscore ? this.state.score + 1: this.state.topscore
         },
   // if you get all 12 cards correct you get a congrats message and the game resets
       () => {
@@ -64,6 +66,7 @@ class App extends Component {
       <div>
         <Navbar
           score={this.state.score}
+          topscore={this.state.topscore}
         />
         <Jumbotron />
         <div className = "wrapper">
